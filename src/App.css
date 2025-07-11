@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+body.dark-mode {
+  background: #222;
+  color: #eee;
+}
+
+body.dark-mode .calendar-container {
+  background: #222;
+  color: #eee;
+}
+
+body.dark-mode .rbc-calendar {
+  background: #333;
+  color: #eee;
+}
+
+body.dark-mode .filter-container select,
+body.dark-mode .darkmode-toggle button,
+body.dark-mode .back-button {
+  background: #444;
+  color: #eee;
+  border: 1px solid #666;
+}
+
+body.dark-mode .filter-container select option {
+  background: #333;
+  color: #eee;
+}

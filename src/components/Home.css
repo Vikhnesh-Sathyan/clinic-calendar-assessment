@@ -1,0 +1,133 @@
+.home {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.hero {
+  flex: 1;
+  text-align: center;
+  padding: 100px 20px;
+  background: url('https://img.freepik.com/free-photo/modern-hospital-reception-interior-design_23-2148986769.jpg?w=1380') no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background: #28a745;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-button:hover {
+  background: #218838;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #007bff;
+  color: #fff;
+  font-size: 14px;
+}
+@media (max-width: 1024px) {
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .cta-button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  header {
+    padding: 15px 30px;
+  }
+
+  nav a {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
