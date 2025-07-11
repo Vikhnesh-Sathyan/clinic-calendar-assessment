@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <header>
-        <div className="logo">ClinicCare</div>
+        <div className="logo">Clinic Care</div>
         <nav>
           <Link to="/">Home</Link>
           <Link to="/login">Login</Link>
