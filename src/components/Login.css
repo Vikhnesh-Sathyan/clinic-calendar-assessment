@@ -39,3 +39,30 @@
 .login-form button:hover {
   background: #218838;
 }
+@media screen and (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-form {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .login-form input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .login-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .login-container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
